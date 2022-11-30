@@ -10,6 +10,7 @@ It has functionality like specific lyrics, album details, artist details, search
 * Firebase
 * MongoDb
 * Express
+* Node.js
 
 
 <!-- CONTRIBUTING -->
