@@ -16,6 +16,7 @@ It has functionality like specific lyrics, album details, artist details, search
 <!-- CONTRIBUTING -->
 ## Contributions
 - Ashwin Nair - <a>https://github.com/DarkLord125</a>
+- Chaitanya - <a>https://github.com/Chaitanya211002</a>
 
 
 
