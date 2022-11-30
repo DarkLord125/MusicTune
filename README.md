@@ -19,4 +19,4 @@ It has functionality like specific lyrics, album details, artist details, search
 
 
 
-Project Link: <a>https://github.com/DarkLord125/Musify</a>
+Project Link: <a>https://github.com/DarkLord125/MusicTune</a>
