@@ -1,5 +1,7 @@
 # Musify
-It is a music streaming service where you can listen to songs and search songs
+A Music streaming web player like youtube music build on MERN stack.
+
+It has functionality like specific lyrics, album details, artist details, searching using filters.
 
 ### Tech Stack Used
 
