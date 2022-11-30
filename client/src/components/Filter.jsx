@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { actionType } from "../context/reducer";
 import { useStateValue } from "../context/StateProvider";
 import { getAllAlbums, getAllArtist } from "../API";
-import { filterByLanguage, filters } from "../utilities/supportfunctions";
+import { filterByLanguage } from "../utilities/supportfunctions";
 import FilterButtons from "./FilterButtons";
 import { MdClearAll } from "react-icons/md";
 import { motion } from "framer-motion";
@@ -24,13 +24,6 @@ const Filter = ({ setFilteredSongs }) => {
         }
     }, []);
 
-    const updateFilter = (value) => {
-        dispatch({
-            type: actionType.SET_FILTER_TERM,
-            filterTerm: value,
-        });
-    };
-
     const clearAllFilter = () => {
         setFilteredSongs(null);
         dispatch({ type: actionType.SET_ARTIST_FILTER, artistFilter: null });
@@ -40,21 +33,7 @@ const Filter = ({ setFilteredSongs }) => {
     };
     return (
         <div className="w-full my-4 px-6 py-4 flex items-center justify-start md:justify-center gap-10">
-            <FilterButtons filterData={artists} flag={"Artist"} />
-
-            <div className=" flex items-center gap-6 mx-4">
-                {filters?.map((data) => (
-                    <p
-                        key={data.id}
-                        onClick={() => updateFilter(data.value)}
-                        className={`text-base ${
-                            data.value === filterTerm ? "font-semibold" : "font-normal"
-                        } text-slate-50 cursor-pointer hover:font-semibold transition-all duration-100 ease-in-out`}
-                    >
-                        {data.name}
-                    </p>
-                ))}
-            </div>
+            <FilterButtons filterData={artists} flag={"Artist"} />    
 
             <FilterButtons filterData={allAlbums} flag={"Albums"} />
 
