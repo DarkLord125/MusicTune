@@ -4,11 +4,11 @@ MERN stack is simple and easy to use , which consists of MongoDB, Express.js, No
 This is a full-stack music streaming platform that can be set up in a matter of minutes. For the frontend, it is built with react.js, tailwind CSS, and the framer-motion library. MongoDB, Express.js, Node.js, and Mongoose are used in the backend.
  
 
-# MusicTune
+## MusicTune
 A Music streaming web player like youtube music built on MERN stack.
 
 It has functionality like specific lyrics, album details, artist details, searching using filters.
-# Features
+## Features
 This application provides users with the following features
 Login functionality using JWT token.
 A platform where users can stream songs, know about albums and artists.
@@ -17,21 +17,28 @@ Get the lyrics of the songs while listening to it.
 Link to artist’s instagram handle.
 Predefined playlist present. 
 ## Screenshots
-Login Page
+#### Login Page
+![](images/login.png)
+
+#### Home Page
+![](images/home%20page.png)
+
+#### Albums & Artists Page
+![](images/album%20and%20artist.png)
+![](images/album%20and%20artist1.png)
+#### Search 
+![](images/search1.png)
+
+![](images/search2.png)
+
+#### Dashboard
+![](images/dashboard1.png)
+![](images/dashboard2.png)
+![](images/dashboard3.png)
+![](images/dashboard4.png)
 
 
-Home Page
-
-Albums & Artists Page
-
-
-Search 
-
-
-
-
-Dashboard
-### Tech Stack Used
+## Tech Stack Used
 
 * React
 * Tailwind CSS
