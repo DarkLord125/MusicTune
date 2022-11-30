@@ -9,12 +9,12 @@ A Music streaming web player like youtube music built on MERN stack.
 
 It has functionality like specific lyrics, album details, artist details, searching using filters.
 ## Features
-This application provides users with the following features
-Login functionality using JWT token.
-A platform where users can stream songs, know about albums and artists.
-Search any music as well as search for albums and artists. 
-Get the lyrics of the songs while listening to it. 
-Link to artist’s instagram handle.
+This application provides users with the following features:  
+Login functionality using JWT token.  
+A platform where users can stream songs, know about albums and artists.  
+Search any music as well as search for albums and artists.   
+Get the lyrics of the songs while listening to it.   
+Link to artist’s instagram handle.  
 Predefined playlist present. 
 ## Screenshots
 #### Login Page
@@ -49,20 +49,19 @@ Predefined playlist present.
 
 
 ## Future Scope
-Allowing users to create their personalized playlist or a collaborative playlist.
-Allowing admin to add/delete songs.
-Recommendation system.
-Allowing users to change their profile picture.
-Things to note
-The frontend is created using create-react-app
+Allowing users to create their personalized playlist or a collaborative playlist.  
+Allowing admin to add/delete songs.  
+Recommendation system.  
+Allowing users to change their profile picture.    
+A Subscription page with a pricing tier .
+
+## Things to note  
+The frontend is created using create-react-app  
 Database connections in the backend are handled using the Mongoose ORM
 
-## Contribution
-Ashwin Nair  -- 
-Swarangi Kule -- 
-Chaitanya Patil -- 
+
 ## Acknowledgement
-KJ somaiya College of Engineering.
+KJ somaiya College of Engineering.  
 Faculty -- Sonia Joshi, Vaibhav Vasani, Gopal Sonune, Swapnil Pawar.
 
 
