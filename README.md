@@ -1,5 +1,5 @@
 # Musify
-A Music streaming web player like youtube music build on MERN stack.
+A Music streaming web player like youtube music built on MERN stack.
 
 It has functionality like specific lyrics, album details, artist details, searching using filters.
 
