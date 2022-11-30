@@ -8,6 +8,7 @@ import {actionType} from "../context/reducer";
 import {validateUser} from "../API";
 
 import loginImg from '../assets/img/5624628.jpg'
+import logo from '../assets/img/logo.png'
 
 
 const Login = ({setAuth}) => {
@@ -78,19 +79,10 @@ const Login = ({setAuth}) => {
 
             <div className='bg-gray-100 flex flex-col justify-center'>
                 <form className='max-w-[400px] w-full mx-auto bg-white p-4'>
-                    <h2 className='text-4xl font-bold text-center py-6'>MusicTune</h2>
-                    <div className='flex flex-col py-2'>
-                        <label>Username</label>
-                        <input className='border p-2' type="text" />
-                    </div>
-                    <div className='flex flex-col py-2'>
-                        <label>Password</label>
-                        <input className='border p-2' type="password" />
-                    </div>
-                    <button className='border w-full my-5 py-2 bg-indigo-600 hover:bg-indigo-500 text-white'>Sign In</button>
+                    <h1 className='text-4xl font-bold text-center py-6 '><img className="w-16 inline mr-5 " alt="logo" src={logo}/>MUSICTUNE</h1>
                     <hr/>
                     <br/>
-                    <div className='gap-2 px-4 py-2 items-center justify-center flex bg-amber-300' onClick={logininWithGoogle}>
+                    <div className='gap-2 px-4 py-2 items-center justify-center flex bg-amber-300 cursor-pointer' onClick={logininWithGoogle}>
                         <FcGoogle className='text-xl'/>
                         Sign In with Google
                     </div>
