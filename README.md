@@ -71,8 +71,8 @@ Faculty -- Sonia Joshi, Vaibhav Vasani, Gopal Sonune, Swapnil Pawar.
 <!-- CONTRIBUTING -->
 ## Contributions
 - Ashwin Nair - <a>https://github.com/DarkLord125</a>
-- Chaitanya - <a>https://github.com/Chaitanya211002</a>
-- Swarangi - <a>https://github.com/swarangi3128</a>
+- Chaitanya Patil - <a>https://github.com/Chaitanya211002</a>
+- Swarangi Kule - <a>https://github.com/swarangi3128</a>
 
 
 
