@@ -10,12 +10,12 @@ A Music streaming web player like youtube music built on MERN stack.
 It has functionality like specific lyrics, album details, artist details, searching using filters.
 ## Features
 This application provides users with the following features:  
-Login functionality using JWT token.  
-A platform where users can stream songs, know about albums and artists.  
-Search any music as well as search for albums and artists.   
-Get the lyrics of the songs while listening to it.   
-Link to artist’s instagram handle.  
-Predefined playlist present. 
+  - Login functionality using JWT token.  
+  - A platform where users can stream songs, know about albums and artists.  
+  - Search any music as well as search for albums and artists.   
+  - Get the lyrics of the songs while listening to it.   
+  - Link to artist’s instagram handle.  
+  - Predefined playlist present. 
 ## Screenshots
 #### Login Page
 ![](images/login.png)
